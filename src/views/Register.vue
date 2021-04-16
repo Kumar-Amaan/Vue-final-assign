@@ -151,7 +151,7 @@ export default {
   methods: {
     submit(e) {
       this.$v.$touch();
-        this.$router.push("/dashboard");
+        this.$router.push("/userdetails");
       
       e.preventDefault();
       console.log("submitted");
